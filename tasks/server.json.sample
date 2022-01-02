@@ -1,0 +1,5 @@
+{
+  "proxy": false,
+  "watch": "**/*.*",
+  "options": {}
+}

@@ -1,0 +1,2 @@
+# Ensure all .sh files are checked out with Linux line endings
+*.sh text eol=lf

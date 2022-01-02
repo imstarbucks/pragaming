@@ -1,0 +1,30 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": [
+    "@babel",
+    "prettier"
+  ],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-undef": 0,
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-unused-vars": 1,
+    "no-empty": 0,
+    "no-useless-escape": 1,
+    "no-fallthrough": 1,
+    "no-extra-boolean-cast": 1
+  }
+}
